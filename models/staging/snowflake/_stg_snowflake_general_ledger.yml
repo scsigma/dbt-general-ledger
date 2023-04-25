@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: stg_snowflake_general_ledger
+    description: staged model for our general ledger data
+

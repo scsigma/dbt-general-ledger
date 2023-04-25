@@ -1,0 +1,11 @@
+version: 2
+
+sources: 
+  - name: snowflake
+    database: se_demo_db
+    schema: general_ledger
+    tables:
+      - name: general_ledger_cleaned
+        description: main gl table
+      - name: gl_accounts_table_cleaned
+        description: main gl accounts table
