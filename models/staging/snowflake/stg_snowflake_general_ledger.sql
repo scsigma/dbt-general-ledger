@@ -10,10 +10,10 @@ with source as (
 
 , renamed_recast as (
     select
-        "Branch" as branch
-        , "Dept" as dept
-        , "Object Account" as object_account
-        , gl_description
+        "Branch" as BRANCH
+        , "Dept" as DEPT
+        , "Object Account" as OBJECT_ACCOUNT
+        , gl_description as GL_DESCRIPTION
         , "GL_Date" as GL_DATE
         , "Invoice_No" as INVOICE_NO
         , "PO_No" as PO_NO
